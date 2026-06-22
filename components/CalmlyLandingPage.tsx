@@ -391,7 +391,7 @@ export default function CalmlyLandingPage() {
           <span className="font-display text-sm" style={{ color: "rgba(237,240,236,0.5)" }}>Calmly</span>
         </div>
         <p className="font-body text-xs" style={{ color: "rgba(237,240,236,0.25)" }}>
-          © 2025 Calmly. Built for the 60 seconds you actually have.
+          © {new Date().getFullYear()} Calmly. Built for the 60 seconds you actually have.
         </p>
         <div className="flex gap-6">
           {["Privacy", "Terms", "Contact"].map(link => (
